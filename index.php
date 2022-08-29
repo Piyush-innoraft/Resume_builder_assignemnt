@@ -23,6 +23,7 @@
 //     header("Location: ../controller/index.php");
 //  }
 
+
 $app=new Application();
 $app->router->get('/check', function(){
     header("Location: /check.php");
